@@ -169,6 +169,8 @@ router.delete("/", auth, async (req, res) => {
   }
 });
 
+// Put requests are updates, could use post also
+
 // @route    PUT api/profile/experience
 // @desc     Add profile experience
 // @access   Private
@@ -217,6 +219,7 @@ router.put(
     try {
       const profile = await Profile.findOne({ user: req.user.id });
 
+      // push to beginning of array instead of end
       profile.experience.unshift(newExp);
 
       await profile.save();
@@ -303,6 +306,7 @@ router.put(
     try {
       const profile = await Profile.findOne({ user: req.user.id });
 
+      // push to beginning of array instead of end
       profile.education.unshift(newEdu);
 
       await profile.save();
