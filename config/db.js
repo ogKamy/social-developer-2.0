@@ -6,7 +6,7 @@ const connectDB = async () => {
   try {
     // await because mongoosedb returns a promise
     await mongoose.connect(db, {
-      // to avoid warning
+      // to avoid warnings
       useNewUrlParser: true,
       useCreateIndex: true,
       useFindAndModify: false
