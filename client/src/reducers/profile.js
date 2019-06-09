@@ -5,7 +5,7 @@ import {
   UPDATE_PROFILE,
   GET_PROFILES,
   GET_REPOS
-} from '../actions/types';
+} from "../actions/types";
 
 const initialState = {
   profile: null,
@@ -15,7 +15,7 @@ const initialState = {
   error: {}
 };
 
-export default function (state = initialState, action) {
+export default function(state = initialState, action) {
   const { type, payload } = action;
 
   switch (type) {
