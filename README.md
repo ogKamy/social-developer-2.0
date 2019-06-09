@@ -9,6 +9,7 @@ A developer networking website built with the MERN stack (MongoDB, Express, Reac
 - [Post](https://hidden-cove-62521.herokuapp.com/posts), like and [comment](https://hidden-cove-62521.herokuapp.com/posts/5cfd4afa50aacf0017341e16) in the community forum
 
 ## Key Technologies
+- Node.js backend
 - Stateless JWT authentication
 - React Hooks, Async/Await
 - Redux state management
