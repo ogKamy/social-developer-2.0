@@ -6,7 +6,7 @@ A developer networking website built with the MERN stack (MongoDB, Express, Reac
 - [Edit](http://hidden-cove-62521.herokuapp.com/dashboard) your profile by adding experiences and education history
 - [Showcase](https://hidden-cove-62521.herokuapp.com/profile/5cf2d5021302c8272822ef81) your profile and latest github projects
 - [Explore](https://hidden-cove-62521.herokuapp.com/profiles) fellow developer profiles
-- [Post](https://hidden-cove-62521.herokuapp.com/posts), like and comment in the community forum
+- [Post](https://hidden-cove-62521.herokuapp.com/posts), like and [comment](https://hidden-cove-62521.herokuapp.com/posts/5cfd47c306b12300172de69f) in the community forum
 
 ## Key Technologies
 - Stateless JWT authentication
